@@ -26,6 +26,7 @@ ENV PABOT_VERSION 0.89
 ENV REQUESTS_VERSION 0.6.2
 ENV ROBOT_FRAMEWORK_VERSION 3.1.2
 ENV SELENIUM_LIBRARY_VERSION 4.1.0
+ENV SELENIUM2_LIBRARY_VERSION 4.1.0
 ENV SSH_LIBRARY_VERSION 3.4.0
 ENV XVFB_VERSION 1.20
 
@@ -69,6 +70,7 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositori
     robotframework-pabot==$PABOT_VERSION \
     robotframework-requests==$REQUESTS_VERSION \
     robotframework-seleniumlibrary==$SELENIUM_LIBRARY_VERSION \
+    robotframework-selenium2library==$SELENIUM2_LIBRARY_VERSION \
     robotframework-sshlibrary==$SSH_LIBRARY_VERSION \
     PyYAML \
 
